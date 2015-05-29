@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 29, 2015, 11:44:16 PM
+    Author     : ricardo
+*/
+
+body{
+    background-color: #656565;
+}
+
+#main{
+    background-color: #d5d5d5;
+    width: 70%;
+    height: 100%;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+button{
+    background-color: #0b8cfc;
+    border-style: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #3bbcff;
+}
+
+button:focus{
+    border-color: #0b4cac;
+    border-width: 2px;
+    border-style: solid;
+    padding: 6px;
+}
+
+#sudoku{
+    float: left;
+    //width: 500px;
+}
+
+#menu{
+    //width: 500px;
+    float: rigth;
+    text-align: left;
+    padding: 5px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+.cell{
+    width: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cell input {
+    text-align: center;
+}
+
+.board_square{
+    display: inline-table;
+    width: 100px;
+    padding: 0px;
+    border: 3px;
+    border-style: solid;
+    border-color: #555;
+    border-radius: 4px;
+    margin: 0px;
+}
+
+td{
+    border-style: none;
+}
+
+input {
+    border-style: none;
+    border-radius: 4px;
+}
+
+.board_row{
+    margin: 4px;
+}
